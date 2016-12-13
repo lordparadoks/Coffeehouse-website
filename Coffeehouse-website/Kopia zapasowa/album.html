@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Lodziarnia - Zawalna</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <header class="pageHeader">
+		<div class="pageHeaderContent">
+			<a href="index.html">
+				<img src="img/logo.png" alt="Back to homepage" class="pageLogo">
+			</a>
+			<h1 class="pageName">Small Café</h1>
+			<nav class="pageNav">
+				<button type="button" title="Open menu" class="hamburger">
+					<img src="img/hamburger.png" alt="Main menu" class="hamburgerIcon">
+					<img src="img/close.png" alt="Close menu" class="closeIcon">
+				</button>
+				<ul class="menuList">
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="coffee.html" title="Coffee">Coffee</a></li>
+					<li><a href="dessert.html" title="Dessert">Dessert</a></li>
+					<li><a href="album.html" title="Photo album">Photo album</a></li>
+					<li><a href="contact.html" title="Contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+    <main class="pageMain">
+        <article class="article">
+            <header class="articleHeader">
+            </header>
+            <div class="articleContent">
+				<h2 class="articleTitle">Photo album</h2>
+				
+				<div class="photoGallery">
+					<div class="view">
+						<img class="viewPic" id="view1"/>
+						<img class="viewPic" id="view2"/>
+						<img class="viewPic" id="view3"/>
+						<button class="viewButton" id="viewNext"><img src="img/next.png" alt="Next picture"></button>
+						<button class="viewButton" id="viewPrev"><img src="img/prev.png" alt="Previous picture"></button>
+					</div>
+					<img id="preview"/>
+					<button class="previewButton" id="previewNext"><img src="img/next.png" alt="Next picture"></button>
+					<button class="previewButton" id="previewPrev"><img src="img/prev.png" alt="Previous picture"></button>
+				</div>
+				
+            </div>
+        </article>
+    </main>
+    <footer class="pageFooter">
+        <p>&copy; 2016 Designed and built by Michał Wilner<p>
+		<p>All data is fictional. Website made for educational purposes<p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
